@@ -68,35 +68,7 @@ I have more unfinished side projects than unread emails — and I’m proud of t
   <img alt="github-snake" src="https://raw.githubusercontent.com/MustafaIdrisHasan/MustafaIdrisHasan/output/github-snake.svg" />
 </picture>
 
----
 
-### ⚙️ Auto Snake Setup
-To make the 🐍 animation update automatically every day, create this file:
-**`.github/workflows/snake.yml`**
-
-```yaml
-name: Generate Snake
-
-on:
-  schedule:
-    - cron: "0 0 * * *"  # Runs every midnight UTC
-  workflow_dispatch:
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Generate Snake
-        uses: Platane/snk@v3
-        with:
-          github_user_name: MustafaIdrisHasan
-          outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
-      - name: Push Snake to output/
-        run: |
           rm -rf output
           mkdir -p output
           cp dist/github-snake.svg output/github-snake.svg
