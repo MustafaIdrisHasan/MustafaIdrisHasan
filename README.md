@@ -1,5 +1,5 @@
 # 💫 About Me:
-Hi, I’m **Mustafa Hasan** — a third-year **Computer Science Engineering** student passionate about building impactful, real-world tech solutions.  
+Hi, I’m **Mustafa Hasan** — a fourth-year **Computer Science Engineering** student passionate about building impactful, real-world tech solutions.  
 I love working with **Python, Django, React, Flutter, and AI/ML**, and I’m obsessed with creating smooth, functional user experiences.  
 
 I enjoy experimenting with new tools, solving challenging problems, and turning crazy ideas into working prototypes.  
