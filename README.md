@@ -69,12 +69,4 @@ I have more unfinished side projects than unread emails — and I’m proud of t
 </picture>
 
 
-          rm -rf output
-          mkdir -p output
-          cp dist/github-snake.svg output/github-snake.svg
-          cp "dist/github-snake-dark.svg" output/github-snake-dark.svg
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add output/*.svg
-          git commit -m "chore: update snake" || echo "no changes"
-          git push
+   
